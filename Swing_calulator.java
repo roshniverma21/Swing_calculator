@@ -4,13 +4,11 @@ import java.awt.FlowLayout;
 import javax.swing.*;
 
 public class Swing_calulator {
-
-		public static void main(String[] args)
-				{
-					calc obj = new calc();
-
-				}
-			}
+	public static void main(String[] args)
+		{
+			calc obj = new calc();
+		}
+	}
  
 	class calc extends JFrame 
 	{
@@ -147,10 +145,8 @@ public class Swing_calulator {
 								int value = num1 / num2;
 								head3.setText(value +  " ");//convert the value to string 
 							 
-						 });
-					
-					}
-
+			});		
+		}
 	}
 
 	
